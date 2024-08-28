@@ -1,0 +1,157 @@
+@use "../utils" as *;
+
+/*----------------------------------------*/
+/*  BUTTTON CSS START
+/*----------------------------------------*/
+
+// Border btn
+.border__btn {
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #16b99b;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: var(--bd-fw-sbold);
+  color: #16b99b;
+  background-color: transparent;
+  @include border-radius(6px);
+  &:hover {
+    border-color: #16b99b;
+    background-color: #16b99b;
+    color: var(--clr-common-white);
+  }
+  &.s-2 {
+    color: #636363;
+    border-color: #636363;
+    &:hover {
+      color: var(--clr-common-white);
+      border-color: var(--clr-theme-1);
+    }
+  }
+  &.s-3 {
+    color: #399b8e;
+    border-color: #399b8e;
+    &:hover {
+      background-color: #399b8e;
+      border-color: transparent;
+      color: var(--clr-common-white);
+    }
+  }
+  &.white {
+    border-color: var(--clr-common-white);
+    color: var(--clr-common-white);
+    &:hover {
+      border-color: transparent;
+    }
+  }
+}
+.solid__btn {
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #16b99b;
+  padding: 0 35px;
+  font-size: 16px;
+  font-weight: var(--bd-fw-sbold);
+  color: var(--clr-common-white);
+  background-color: #16b99b;
+  border-radius: 6px;
+  &:hover {
+    color: #16b99b;
+    border: 2px solid #16b99b;
+    background-color: transparent;
+  }
+}
+.cta__btn {
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: #16b99b;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--clr-common-white);
+}
+.features__btn {
+  height: 60px;
+  border-radius: 6px;
+  // background: var(--clr-common-white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #399b8e;
+  &:hover {
+    color: var(--clr-common-white);
+    background-color: #399b8e;
+  }
+}
+
+.Insightful-Reporting-btn {
+  height: 60px;
+  border-radius: 6px;
+  // background: var(--clr-common-white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2aa7c7;
+  &:hover {
+    color: var(--clr-common-white);
+    background-color: #2aa7c7;
+  }
+}
+
+.features__btn__new {
+  height: 60px;
+  border-radius: 6px;
+  // background: var(--clr-common-white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #b25291;
+  &:hover {
+    color: var(--clr-common-white);
+    background-color: #b25291;
+  }
+}
+.recent__btn {
+  font-size: 16px;
+  font-weight: 600;
+  &:hover {
+    color: var(--clr-theme-5);
+  }
+  i {
+    margin-left: 10px;
+  }
+  svg {
+    margin-left: 10px;
+  }
+  span {
+    color: var(--clr-theme-5);
+    &:hover {
+      color: var(--clr-theme-3);
+    }
+  }
+}
+.play__btn {
+  width: 116px;
+  height: 116px;
+  background: rgba(56, 135, 254, 0.1);
+  display: inline-block;
+  text-align: center;
+  line-height: 110px;
+  border-radius: 50%;
+}

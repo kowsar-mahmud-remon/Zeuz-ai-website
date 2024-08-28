@@ -1,0 +1,5 @@
+blue: "#2aa7c7"
+green: "#229f8f"
+purpal: "#b25291"
+red: "#e37a7c",
+black: "#353935"

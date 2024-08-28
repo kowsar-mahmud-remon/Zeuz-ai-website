@@ -1,0 +1,60 @@
+
+@keyframes vibration {
+    0% {
+        transform: scale(0.995); /* Start with a small scale */
+      }
+
+      100% {
+        transform: scale(1.001); /* Grow to full size */
+      }
+  }
+  
+  .vibrate {
+    animation: vibration 2s linear infinite;
+  }
+
+  
+@keyframes vibration1 {
+    0% {
+        transform: translate(0, 0);
+      }
+      25% {
+        transform: translate(-5px, -5px);
+      }
+      50% {
+        transform: translate(5px, 5px);
+      }
+      75% {
+        transform: translate(-5px, -5px);
+      }
+      100% {
+        transform: translate(5px, 5px);
+      }
+  }
+  
+  .vibrate1 {
+    animation: vibration1 5s linear infinite;
+  }
+
+
+  @keyframes vibration2 {
+    0% {
+        transform: translate(0, 0);
+      }
+      25% {
+        transform: translate(-4px, -4px);
+      }
+      50% {
+        transform: translate(4px, 4px);
+      }
+      75% {
+        transform: translate(-4px, -4px);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+  }
+  
+  .vibrate2 {
+    animation: vibration2 0s linear infinite;
+  }
